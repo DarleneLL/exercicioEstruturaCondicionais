@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWITCH/CASE</title>
+</head>
+<body>
+    <h1>Exercícos de Estruturas Condicionais - SWITCH/CASE</h1>
+    <h3>Ler um número de 1 a 7 e imprima o dia da semana correspondente</h3>
+        <form>
+        <label>Dia</label>
+        <input type = "text" id="dia" placeholder="Digite um número de 1 a 7">
+        <button onclick="diaSemana()">Confirma</button>
+    </form>
+
+    <!-- Crie um programa que verifique se uma letra é vogal ou consoante. -->
+    <h3>Verifica se uma letra é vogal ou consoante</h3>
+    <form>
+        <label>Letra</label>
+        <input type = "text" id="letra" placeholder="Digite uma letra">
+        <button onclick="vogalConsoante()">Confirma</button>
+    </form>
+    <!-- Faça um programa que converta um número em um mês do ano. -->
+    <h3>Converte um número em um mês do ano</h3>
+    <form>
+        <label>Número</label>
+        <input type = "text" id="num" placeholder="Digite um número de 1 a 12">
+        <button onclick="numMes()">Confirma</button>
+    </form>
+        
+    <h3>Classifica o dia como util ou final de semana</h3>
+        <form>
+            <label>Selecione um dia da semana</label>
+            <select id="s">
+                <option >Domingo</option>
+                <option selected>Segunda-feira</option>
+                <option >Terça-feira</option>
+                <option >Quarta-feira</option>
+                <option >Quinta-feira</option>
+                <option >Sexta-feira</option>
+                <option >Sábado</option>
+              </select>
+            <button onclick="classificaDia()">Confirma</button>
+        </form>
+    
+    <h3>Determina o nome de polígono a partir do número de lados</h3>
+    <form>
+            <label>Número de Lados</label>
+            <input type = "text" id="n" placeholder="Digite um número lados">
+            <button onclick="numLados()">Confirma</button>
+    </form>
+
+    <h3>Verifica se um número é positivo, negativo ou zero</h3>
+    <form>
+        <label>Digite um número</label>
+        <input type = "text" id="n" placeholder="Digite um número">
+        <button onclick="numPosnegzero()">Confirma</button>
+    </form>
+
+    <h3>Determina a estação do ano a partir do mês</h3>
+    <form>
+        <label>Selecione um mês</label>
+        <select id="m">
+            <option >Dezembro</option>
+            <option selected>Janeiro</option>
+            <option >Fevereiro</option>
+            <option >Marça</option>
+            <option >Abril</option>
+            <option >Maio</option>
+            <option >Junho</option>
+            <option >Julho</option>
+            <option >Agosto</option>
+            <option >Setembro</option>
+            <option >Outubro</option>
+            <option >Novembro</option>
+        </select>
+        <button onclick="estacaoAno()">Confirma</button>
+    </form>
+  
+    <script src="js/script.js"></script>
+</body>
+
+</html>
