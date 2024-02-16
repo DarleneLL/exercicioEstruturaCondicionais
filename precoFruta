@@ -7,7 +7,7 @@
 </head>
 <body>
     <script>
-        let fruta = prompt("Digite o nome do alimento:");
+        let fruta = prompt("Digite o nome do alimento:").toLowerCase();
         precoFruta(fruta);
         function precoFruta(fruta){
             switch (fruta){
