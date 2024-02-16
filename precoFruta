@@ -7,17 +7,27 @@
 </head>
 <body>
     <script>
-        let fruta = prompt("Digite o nome do alimento:").toLowerCase();
-        precoFruta(fruta);
+        
+        let continua = true
+        while(continua){
+            let fruta = prompt("Digite o nome do alimento ou Sair:");
+            precoFruta(fruta);
+        }
+        
         function precoFruta(fruta){
-            switch (fruta){
+            switch (fruta.toLocaleLowerCase()){
                 case "morango":
                 case "laranja":
                 case "uva":
-                    console.log("O valor é R$ 5,99");
+                    alert("O valor é R$ 5,99");
+                    break;
+                case "sair":
+                    alert("Boa noite")
+                    continua = false;
                     break;
                 default:
-                    console.log("Sem preço")
+                    alert("Sem preço")
+                    break;
 
             }
         }
