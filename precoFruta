@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let fruta = prompt("Digite o nome do alimento:");
+        precoFruta(fruta);
+        function precoFruta(fruta){
+            switch (fruta){
+                case "morango":
+                case "laranja":
+                case "uva":
+                    console.log("O valor é R$ 5,99");
+                    break;
+                default:
+                    console.log("Sem preço")
+
+            }
+        }
+        
+    </script>
+</body>
+</html>
